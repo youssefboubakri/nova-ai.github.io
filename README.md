@@ -2,7 +2,7 @@
 الملك الرسمي: **VulnScan** — أداة كشف الثغرات الذكية
 
 🌐 الموقع: https://nova-ai.github.io  
-💾 الكود: https://github.com/youssef-boubakri/vulnscan-free  
+💾 الكود: https://github.com/youssef-boubakri/vulnscan-community  
 📧 تواصل: contact@nova-ai.ai  
 
 ---
