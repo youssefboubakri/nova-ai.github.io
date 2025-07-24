@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>Nova AI | مستقبل الأمن السيبراني</title>
+    <meta name="description" content="VulnScan Community - أداة كشف الثغرات من Nova AI. احمِ الإنترنت مع مجتمع الأمن السيبراني.">
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
@@ -10,16 +11,36 @@
             background: #0f1624;
             color: #e0e0e0;
             padding: 50px;
+            margin: 0;
+            direction: rtl;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
         }
         .logo {
             margin-bottom: 20px;
         }
+        .logo img {
+            width: 220px;
+            transition: transform 0.3s;
+        }
+        .logo img:hover {
+            transform: scale(1.05);
+        }
         h1 {
             color: #00ffcc;
+            font-size: 2.5em;
+            margin: 10px 0;
+        }
+        .tagline {
+            color: #00bfff;
+            font-size: 1.2em;
+            margin-bottom: 30px;
         }
         p {
             font-size: 18px;
-            max-width: 800px;
+            line-height: 1.7;
             margin: 20px auto;
         }
         .btn {
@@ -30,42 +51,80 @@
             text-decoration: none;
             border-radius: 8px;
             margin: 20px;
+            display: inline-block;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #0099cc;
+        }
+        .section {
+            margin: 50px auto;
+            padding: 20px;
+            max-width: 800px;
+            border-bottom: 1px solid #333;
         }
         footer {
-            margin-top: 50px;
+            margin-top: 60px;
             color: #a0a0a0;
+            font-size: 14px;
+        }
+        footer a {
+            color: #00bfff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <!-- شعار Nova AI -->
-    <div class="logo">
-        <img src="https://github.com/youssef-boubakri/youssef-boubakri.github.io/raw/main/logo-nova-ai.png" alt="شعار Nova AI" width="200">
-    </div>
+    <div class="container">
+        <!-- شعار Nova AI -->
+        <div class="logo">
+            <img src="https://github.com/youssef-boubakri/youssef-boubakri.github.io/raw/main/logo-nova-ai.png" alt="شعار Nova AI" width="220">
+        </div>
 
-    <!-- العنوان الرئيسي -->
-    <h1>مستقبل الأمن السيبراني</h1>
-    <p>
-        نحن نطور أدوات ذكية لاكتشاف الثغرات وحماية العالم الرقمي.
-        <strong>VulnScan Community</strong> هو أول إصدار من Nova AI، مخصص للمبتدئين، الطلاب، ومحبي الأمن السيبراني.
-    </p>
+        <!-- العنوان الرئيسي -->
+        <h1>VulnScan Community</h1>
+        <p class="tagline">أول أداة كشف ثغرات من تطوير Nova AI</p>
 
-    <!-- زر التحميل -->
-    <a href="https://github.com/youssef-boubakri/vulnscan-community" class="btn">تحميل VulnScan Community</a>
-
-    <!-- قسم عن الشركة -->
-    <section id="about">
-        <h2>عن Nova AI</h2>
         <p>
-            Nova AI هي شركة تقنية تهدف إلى جعل الإنترنت مكانًا أكثر أمانًا من خلال تطوير أدوات ذكية لاكتشاف الثغرات.
-            نحن لا نصنع تطبيقات فقط، بل نبني مجتمعًا من المُتعلمين والمحترفين.
+            نحن لا نبني تطبيقات فقط — نُنشئ <strong>مجتمعًا</strong> من المبتدئين، المطورين، ومحبي الأمن السيبراني.
+            <br>
+            <strong>VulnScan Community</strong> هي خطوتك الأولى نحو فهم عالم الثغرات والحماية الرقمية.
         </p>
-    </section>
 
-    <!-- قدم الموقع -->
-    <footer>
-        <p>© 2025 Nova AI. جميع الحقوق محفوظة.</p>
-        <p>تواصل: <a href="mailto:novaai0101@gmail.com">novaai0101@gmail.com</a></p>
-    </footer>
+        <!-- زر التحميل -->
+        <a href="https://github.com/youssef-boubakri/vulnscan-community" class="btn">⬇️ احصل على VulnScan الآن</a>
+
+        <div class="section">
+            <h2>لماذا VulnScan Community؟</h2>
+            <p>
+                تم تصميم VulnScan ليكون <strongبسيطًا للمبتدئين</strong>، و<strongذكيًا للمحترفين</strong>.
+                <br>
+                هو ليس مجرد أداة، بل بوابة تعليمية تُعلّمك كيف تكتشف الثغرات، تفهمها، وتحمي منها.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>من نحن؟</h2>
+            <p>
+                <strong>Nova AI</strong> هي شركة تقنية شابة تؤمن أن الأمن السيبراني يجب أن يكون متاحًا للجميع.
+                <br>
+                نُطور أدوات ذكية، بسيطة، وشفافة — لأن الإنترنت مكان آمن هو حق للجميع.
+            </p>
+        </div>
+
+        <!-- قدم الموقع -->
+        <footer>
+            <p>© 2025 Nova AI. جميع الحقوق محفوظة.</p>
+            <p>تواصل: <a href="mailto:contact@nova-ai.ai">contact@nova-ai.ai</a></p>
+            <p>
+                <a href="https://github.com/Nova-AI-Labs" target="_blank">GitHub</a> |
+                <a href="https://twitter.com/NovaAI_Tech" target="_blank">X (Twitter)</a> |
+                <a href="https://youtube.com/@NovaAITech" target="_blank">YouTube</a>
+            </p>
+        </footer>
+    </div>
 </body>
 </html>
